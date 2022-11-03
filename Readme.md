@@ -5,7 +5,7 @@ You can use any prefix and address, it will match bech32 address on blockchain n
 Here is a function which will help you to convert one Cosmos blockchain token address to other. 
 
 //INSTALLATION:
-```Javascript
+```bash
 npm install bech32-converting
 ```
 //USAGE:
