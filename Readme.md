@@ -24,4 +24,6 @@ const findOtherTokenAddress = (
 
 findOtherTokenAddress("cosmos18pr3pfggka859d38499tmsgm803u0sa9gpkwnf","cosmos", "osmo");
 
-//returns: "osmo18pr3pfggka859d38499tmsgm803u0sa9q6979m"
+//returns: 
+
+"osmo18pr3pfggka859d38499tmsgm803u0sa9q6979m"
