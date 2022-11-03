@@ -1,6 +1,8 @@
-This library is designed to convert cosmos token (bech32 type) addresses to hex and vice versa.
+This library (bech32-converting) is designed to convert bech32 addresses to hex and vice versa.
 
 You can use any prefix and address, it will match bech32 address on blockchain node.
+
+Here is a function which will help you to convert one Cosmos blockchain token address to other. 
 
 //INSTALLATION:
 
