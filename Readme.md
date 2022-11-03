@@ -2,17 +2,18 @@ This library is designed to convert cosmos token (bech32 type) addresses to hex 
 
 You can use any prefix and address, it will match bech32 address on blockchain node.
 
-INSTALLATION
+//INSTALLATION:
+
 npm install bech32-converting
 
-USAGE:
+//USAGE:
 
 import converter from "bech32-converting";
 
 const findOtherTokenAddress = (
-  currentTokenaddress, //Example: "cosmos18pr3pfggka859d38499tmsgm803u0sa9gpkwnf"
-  currentTokenName, //Example: "cosmos"
-  newTokenName //Example: "osmo"
+  currentTokenaddress, 
+  currentTokenName,
+  newTokenName 
 ) => {
   let currentTokenaddressHex =
     converter(currentTokenName).toHex(currentTokenaddress);
